@@ -8,8 +8,11 @@ Code is provided as-is, with no warranty of correctness.  Use freely in whatever
 Build With CMake, from current directory run:
 
 $> mkdir build
+
 $> cd build
+
 $> cmake -DCMAKE_BUILD_TYPE=Release ../code 
+
 $> make
 
 This should create a binary directory including the library file and a test executable (provided you haven't disabled this option). To build the Doxygen documentation run the following command from the top-level directory
