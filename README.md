@@ -1,6 +1,6 @@
 transformation
+
 (c) James Gregson 2011-2013
-james.gregson@gmail.com
 ==============
 
 A basic 4x4 transformation class which duplicates much of the functionality of the OpenGL/GLU matrix functions with a very similar interface.  Written to make graphical debugging of geometric code easier, by allowing a uniform set of transformation code to be used. Moderately well tested to assure that the methods provided in the transformation class produce near identical results to the corresponding methods in the transformation class.
